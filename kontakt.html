@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kes Kolica</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md fixed-top navigation-clean-search">
+        <div class="container"><a class="navbar-brand" href="index.html" data-bs-hover-animate="tada"><img
+                    src="assets/img/192b6cbe3c102227ba2ce9e9b6f44670.png" id="logo">Kes Kolica</a><button
+                class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle
+                    navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">About Us</a>
+                    </li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="kontakt.html">Contact Us</a></li>
+                </ul><a class="btn btn-light ml-auto action-button" role="button" href="#"
+                    data-bs-hover-animate="bounce">Download</a>
+            </div>
+        </div>
+    </nav>
+    <section id="contact" class="main style3 secondary">
+        <div class="content">
+            <header>
+                <h2>Write us</h2>
+                <p><strong>We will be happy to answer you!</strong></p>
+            </header>
+            <div class="box">
+                <form method="post" action="mail.php">
+                    <div class="field half first"><input type="text" name="name" placeholder="Name" /></div>
+                    <div class="field half"><input type="email" name="email" placeholder="E-mail" /></div>
+                    <div class="field"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+                    <ul class="actions">
+                        <li><input data-bs-hover-animate="rubberBand" type="submit" value="Send" /></li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 footer-navigation">
+                    <h3><a>Kes&nbsp;<span>Kolica</span></a></h3>
+                    <p class="links"><a href="index.html">About Us</a><strong> · </strong><a
+                            href="kontakt.html">Contact</a><strong> · </strong><a
+                            href="#">Download</a><strong>&nbsp;</strong></p>
+                    <p class="company-name">Kes Kolica &nbsp;© 2019</p>
+                </div>
+                <div class="col-sm-6 col-md-4 footer-contacts">
+                    <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+                        <p><span class="new-line-span">Brace Jerkovic 99</span> Belgrade, Serbia</p>
+                    </div>
+                    <div><i class="fa fa-phone footer-contacts-icon"></i>
+                        <p class="footer-center-info email text-left">+381 62 9740 296</p>
+                    </div>
+                    <div><i class="fa fa-envelope footer-contacts-icon"></i>
+                        <p> <a href="kontakt.html" target="_blank">nemanja.jovic@protonmail.com</a></p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-4 footer-about">
+                    <h4>About</h4>
+                    <p>
+                        Founded in 2018, the company has seen tremendous growth for the time being. More and more
+                        satisfied users, join them! </p>
+                    <div class="social-links social-icons"><a href="https://www.facebook.com/nemanja.jole"
+                            target="blank"><i class="fa fa-facebook" data-bs-hover-animate="rubberBand"></i></a><a
+                            href="https://twitter.com/stamitesko" target="blank"><i class="fa fa-twitter"
+                                data-bs-hover-animate="rubberBand"></i></a><a
+                            href="https://www.linkedin.com/in/nemanja-jovic-86300a15a/" target="blank"><i
+                                class="fa fa-linkedin" data-bs-hover-animate="rubberBand"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.min.js"></script>
+    <script>
+        function initMap() {
+            var uluru = { lat: -25.344, lng: 131.036 };
+
+            var map = new google.maps.Map(
+                document.getElementById('map'), { zoom: 4, center: uluru });
+            var marker = new google.maps.Marker({ position: uluru, map: map });
+        }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqbReN1_4x0_-4ojCm20V6Q_p9UnPoVGE&callback=initMap">
+        </script>
+</body>
+
+</html>

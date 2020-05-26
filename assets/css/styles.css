@@ -1,0 +1,418 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#promo .jumbotron {
+  border-radius: 20px;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, .75);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  #promo {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 576px) {
+  #promo .jumbotron {
+    padding: 20px;
+  }
+}
+
+.prviDeo {
+  max-width: 100%;
+  text-align: center;
+  padding-bottom: 70px;
+  padding-left: 70px;
+  padding-right: 70px;
+  ;
+  background-color: #eaf9ff;
+}
+
+#logo {
+  max-height: 42px;
+  margin-right: 10px;
+  margin-top: -3px;
+  display: inline-block;
+}
+
+.prviDeo h1 {
+  font-weight: normal;
+  margin-bottom: 30px;
+  margin-top: 60px;
+  padding-top: 20px;
+}
+
+#welcome {
+  background-color: rgb(99, 155, 179);
+  border-radius: 20px;
+  max-width: 80%;
+}
+
+#welcome h1 {
+  color: rgba(243, 150, 154);
+  padding-top: 15px;
+}
+
+#welcome p {
+  max-width: 800px;
+  font-size: 20px;
+  margin: 0 auto;
+  color: white;
+}
+
+#shopping p {
+  max-width: 800px;
+  font-size: 20px;
+  margin: 0 auto;
+  color: #6f767a;
+  padding-bottom: 20px;
+}
+
+.dark-section {
+  background-color: #eaf9ff;
+}
+
+#partneri .item p {
+  color: #6f767a;
+}
+
+#partneri .item h2 {
+  font-weight: normal;
+  margin-top: 13px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+#partneri .item i {
+  font-size: 42px;
+  color: rgb(99, 155, 179);
+}
+
+.navigation-clean-search.navbar-light .navbar-nav a.active, .navigation-clean-search.navbar-light .navbar-nav a.active:focus, .navigation-clean-search.navbar-light .navbar-nav a.active:hover {
+  color: white;
+  box-shadow: none;
+  background: none;
+  background-color: rgb(99, 155, 179);
+  border-color: transparent;
+  pointer-events: none;
+  border-radius: 20px;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus, .show>.btn-secondary.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(243, 150, 154, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(243, 150, 154, 0.5);
+  border-radius: 20px;
+}
+
+#contact {
+  margin-top: 150px;
+  text-align: center;
+}
+
+/*Forma-Kontak*/
+
+form {
+  margin: 0 0 2em 0;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+form .field {
+  margin: 0 0 1.5em 0;
+}
+
+form .field.half {
+  width: 50%;
+  float: left;
+  padding: 0 0 0 0.75em;
+}
+
+form .field.half.first {
+  padding: 0 0.75em 0 0;
+}
+
+form>.actions {
+  margin: 1.5em 0 0 0 !important;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 736px) {
+  form .field {
+    margin: 0 0 1em 0;
+  }
+  form .field.half {
+    padding: 0 0 0 0.5em;
+  }
+  form .field.half.first {
+    padding: 0 0.5em 0 0;
+  }
+  form>.actions {
+    margin: 1em 0 0 0 !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  form .field.half {
+    width: 100%;
+    float: none;
+    padding: 0;
+  }
+  form .field.half.first {
+    padding: 0;
+  }
+}
+
+label {
+  display: block;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="url"], select, textarea {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  color: #39454b;
+  display: block;
+  width: 100%;
+  padding: 0.65em 0.75em;
+  background: none;
+  border: solid 2px #9ac8e9;
+  color: inherit;
+  border-radius: 0.5em;
+  outline: none;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="tel"]:focus, input[type="search"]:focus, input[type="url"]:focus, select:focus, textarea:focus {
+  border-color: #2196F3;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="url"], select {
+  line-height: 1.35em;
+}
+
+textarea {
+  min-height: 8em;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+
+::-webkit-input-placeholder {
+  opacity: 0.375;
+}
+
+:-moz-placeholder {
+  opacity: 0.375;
+}
+
+::-moz-placeholder {
+  opacity: 0.375;
+}
+
+:-ms-input-placeholder {
+  opacity: 0.375;
+}
+
+.formerize-placeholder {
+  opacity: 0.375;
+}
+
+/*Dugmad*/
+
+input[type="button"], input[type="submit"], input[type="reset"], .button, button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: background-color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+  background-color: #98c593;
+  border: 0;
+  border-radius: 3.5em;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  height: 3.5em;
+  line-height: 3.5em;
+  outline: 0;
+  padding: 0 2em 0 2em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+
+input[type="button"].down, input[type="submit"].down, input[type="reset"].down, .button.down, button.down {
+  width: 5em;
+  height: 5em;
+  line-height: 4.5em;
+  padding: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-indent: -10em;
+  overflow: hidden;
+}
+
+input[type="button"].down.anchored, input[type="submit"].down.anchored, input[type="reset"].down.anchored, .button.down.anchored, button.down.anchored {
+  bottom: 0;
+  border-bottom: 0;
+  border-radius: 3em 3em 0 0;
+  height: 4.5em;
+  margin-left: -2.5em;
+}
+
+input[type="button"].anchored, input[type="submit"].anchored, input[type="reset"].anchored, .button.anchored, button.anchored {
+  position: absolute;
+  left: 50%;
+}
+
+input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover, .button:hover, button:hover {
+  background-color: #a8cea4;
+}
+
+input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:active, .button:active, button:active {
+  background-color: #88bc82;
+}
+
+input[type="button"].style2, input[type="submit"].style2, input[type="reset"].style2, .button.style2, button.style2 {
+  background-color: transparent;
+  border: solid 2px #e5e6e7;
+  color: inherit;
+}
+
+input[type="button"].style2:hover, input[type="submit"].style2:hover, input[type="reset"].style2:hover, .button.style2:hover, button.style2:hover {
+  background-color: rgba(229, 230, 231, 0.25);
+}
+
+input[type="button"].style2:active, input[type="submit"].style2:active, input[type="reset"].style2:active, .button.style2:active, button.style2:active {
+  background-color: rgba(229, 230, 231, 0.375);
+}
+
+input[type="button"].style2.down, input[type="submit"].style2.down, input[type="reset"].style2.down, .button.style2.down, button.style2.down {}
+
+* {
+  box-sizing: border-box
+}
+
+.progress {
+  width: 100%;
+  background-color: #ddd;
+  height: 100%;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+}
+
+.kor {
+  width: 90%;
+  background-color: #4CAF50;
+}
+
+.usl {
+  width: 80%;
+  background-color: #2196F3;
+}
+
+.pou {
+  width: 85%;
+  background-color: #f44336;
+}
+
+#progbar {
+  padding-top: 30px;
+  padding-left: 15%;
+  padding-bottom: 50px;
+  padding-right: 15%;
+}
+
+#progbar p {
+  padding-top: 10px;
+}
+
+#uPrvi {
+  margin-top: 150px;
+  text-align: center;
+}
+
+#uPrvi p {
+  padding-top: 20px;
+  max-width: 800px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+#slika {
+  height: 200px;
+  margin-left: 40%;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#uDrugi {
+  margin-top: 75px;
+}
+
+#uDrugi h2 {
+  color: rgb(99, 155, 179);
+}
+
+#uDrugi p {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+#uTreci {
+  margin-top: 75px;
+}
+
+#uTreci h2 {
+  color: rgba(243, 150, 154);
+}
+
+#uTreci p {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+#carouselExampleIndicators {
+  height: 500px;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+  padding-top: 50px;
+}
+
+#slajd p {
+  padding-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#slajd h2 {
+  color: rgb(99, 155, 179);
+  text-align: center;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+#map {
+  max-width: 100%;
+}
